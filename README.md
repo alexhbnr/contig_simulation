@@ -1,11 +1,12 @@
-# Snakemake workflow: `<name>`
+# Snakemake workflow: Contig simulation
 
 [![Snakemake](https://img.shields.io/badge/snakemake-≥6.3.0-brightgreen.svg)](https://snakemake.github.io)
 [![GitHub actions status](https://github.com/<owner>/<repo>/workflows/Tests/badge.svg?branch=main)](https://github.com/<owner>/<repo>/actions?query=branch%3Amain+workflow%3ATests)
 
 
-A Snakemake workflow for `<description>`
-
+This workflow allows to simulate contiguous DNA sequences (contigs) from reference genomes. It draws
+the length of these contigs from a provided length distribution and can add mutations to obtain
+sequence divergence.
 
 ## Usage
 
